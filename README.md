@@ -13,9 +13,9 @@ To make a lambda, write:
 
 Example:
 
-`add_one = lambda x: x + 1`
+```add_one = lambda x: x + 1
 
-`add_one(2) # Would say 3`
+add_one(2) # Would say 3```
 
 To write
 
@@ -23,15 +23,15 @@ To write
 
 Would be to write
 
-`def z(x):`
+```def z(x):
 
-`    return y`
+    return y```
 
 ## Use
 
 Lambdas are mostly used as functional arguments.
 
-`['bar', 'spam', 'foo'].sort(key=**lambda x: x[-1]**)`
+`['bar', 'spam', 'foo'].sort(key=lambda x: x[-1])`
 
 This is because they are not usually assigned to variables.
 
