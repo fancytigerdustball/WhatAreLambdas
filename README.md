@@ -5,7 +5,7 @@ To put it simply, lambdas are one-line functions.
 
 To make a lambda, write:
 
-`[funcname] = lambda [parameters]: [expression]`
+```[funcname] = lambda [parameters]: [expression]```
 
 (Words in brackets are replaced)
 
@@ -19,7 +19,7 @@ add_one(2) # Would say 3```
 
 To write
 
-`z = lambda x: y`
+```z = lambda x: y```
 
 Would be to write
 
@@ -31,7 +31,7 @@ Would be to write
 
 Lambdas are mostly used as functional arguments.
 
-`['bar', 'spam', 'foo'].sort(key=lambda x: x[-1])`
+```['bar', 'spam', 'foo'].sort(key=lambda x: x[-1])```
 
 This is because they are not usually assigned to variables.
 
