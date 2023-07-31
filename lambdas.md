@@ -13,8 +13,8 @@ To make a lambda, write:
 
 Example:
 
-`add_one = lambda x: x + 1`
-`add_one(2) # Would say 3`
+```add_one = lambda x: x + 1
+add_one(2) # Would say 3```
 
 To write
 
